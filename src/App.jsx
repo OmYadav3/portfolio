@@ -1,11 +1,10 @@
 import React from 'react'
+import { ContactUs } from './components/ContactUs'
 
 const App = () => {
   return (
     <div>
-      <p className='text-white text-5xl'>
-        Portfolio Website
-      </p>
+      <ContactUs/>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+
 export const ContactUs = () => {
   const form = useRef();
 
@@ -8,8 +9,8 @@ export const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
-        publicKey: "YOUR_PUBLIC_KEY",
+      .sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, form.current, {
+        publicKey: process.env.YOUR_PUBLIC_KEY,
       })
       .then(
         () => {
@@ -21,30 +22,34 @@ export const ContactUs = () => {
       );
   };
   return (
-    <form ref={form} onSubmit={sendEmail} className="mt-4 flex flex-col px-96 ">
-      <div className="text-5xl text-center font-bold">ContactUs</div>
-      <label className="text-2xl px-2 ">Name</label>
+    <section className="">
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col sm:max-w-[50rem] m-auto     ">
+      <div className="text-3xl text-center mb-4">Feel Free to Contact Us</div>
+      <label className=" ">Name</label>
       <input
-        className="mb-4 rounded border-2 p-2 border-black"
+        className="mb-4 border p-2 border-black drop-shadow-md"
         type="text"
         name="user_name"
       />
-      <label className="text-2xl px-2 ">Email</label>
+      <label className="">Email</label>
       <input
-        className="mb-4 rounded border-2 p-2 border-black"
+        className="mb-4 rounded border p-2 border-black drop-shadow-md"
         type="email"
         name="user_email"
       />
-      <label className="text-2xl px-2 ">Message</label>
+      <label className="">Message</label>
       <textarea
-        className="mb-4 rounded border-2 p-2 border-black"
+        className="mb-4 rounded border p-2 border-black drop-shadow-md"
         name="message"
+        cols={30}
+        rows={6}
       />
       <input
-        className="bg-blue-600 hover:text-white px-8 py-4 rounded  "
+        className="bg-blue-500 hover:bg-blue-600 py-2 rounded drop-shadow-md text-white"
         type="submit"
         value="Send"
       />
     </form>
+    </section>
   );
 };

@@ -1,13 +1,13 @@
 import React from 'react'
-import { ContactUs } from './components/ContactUs'
 import { Navbar } from './components/Navbar/Navbar'
+import Home from './components/Home/Home'
 
 
 const App = () => {
   return (
-    <div>
+    <div className='cursior-smooth'>
       <Navbar/>
-      {/* <ContactUs/> */}
+      <Home/>
     </div>
   )
 }

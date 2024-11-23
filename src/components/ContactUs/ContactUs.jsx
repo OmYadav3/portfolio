@@ -22,8 +22,8 @@ export const ContactUs = () => {
       );
   };
   return (
-    <section className="">
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col sm:max-w-[50rem] m-auto     ">
+    <section className="h-screen ">
+    <form ref={form} onSubmit={sendEmail} className=" flex flex-col sm:max-w-[50rem] m-auto     ">
       <div className="text-3xl text-center mb-4">Feel Free to Contact Us</div>
       <label className=" ">Name</label>
       <input

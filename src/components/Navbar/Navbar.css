@@ -7,8 +7,13 @@
     box-sizing: border-box;
 }
 body{
-    background: #f1efef;
+    background: #f6f3f3;
     /* height: 100vh; */
     /* width: 100vw; */
     font-family: "Josefin Sans", sans-serif;
+}
+.Logo{
+    background-image: url(Om.png);
+    -webkit-background-composite: inherit;
+
 }

@@ -9,7 +9,7 @@ export const Navbar = () => {
             </div>
        <div className=" py-8 px-32 border-2 flex items-center justify-between z-50 ">
         <div className="Logo text-4xl font-bold ">Portfolio</div>
-        <div className="flex space-x-4 text-xs ">
+        <div className="flex space-x-4 ">
             <ul className="hover:text-red-600 hover:underline cursor-pointer">Home</ul>
             <ul className="hover:text-red-600 hover:underline cursor-pointer">Projects</ul>
             <ul className="z-50 hover:text-red-600 hover:underline cursor-pointer">AboutUs</ul>

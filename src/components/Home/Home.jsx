@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section className='mt-3 h-[36.5rem] border shadow-lg '>
+    <section className='mt-3 h-[36.5rem] shadow-lg '>
       <div className="flex justify-center align-center h-full">
       <div className="w-full flex flex-col justify-center items-center">
 
@@ -19,7 +19,7 @@ const Home = () => {
         </button>
       </div>
       </div>
-      <div className="flex items-end">
+      <div className="flex items-end ">
         <img className='' src="Omm.png" alt="photo" />
       </div>
       </div>

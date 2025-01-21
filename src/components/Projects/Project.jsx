@@ -3,10 +3,10 @@ import './Project.css'
 
 const Project = () => {
   return (
-    <section>
-      <div className="main-container mt-[2rem] border- border-black  ">
+    <section className=''>
+      <div className="main-container mt-[2rem] border- border-black ">
        <div className='text-5xl font-bold text-center mt-2 text-zinc-600'>Projects</div>
-       <div className="projectsshowoff border-2 border-red-60 m-4 p-2 grid grid-cols-3 bg-white">
+       <div className="projectsshowoff border-2 border-red-60 m-4 p-2 grid grid-cols-3 shadow-lg">
             <div className="project-card mt-2 rounded bg-white shadow-xl">
                 <div className=' w-full h-[20rem] overflow-hidden '>
                 <img

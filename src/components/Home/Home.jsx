@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section className='mt-3 h-[36.5rem] border '>
+    <section className='mt-3 h-[36.5rem] border shadow-lg '>
       <div className="flex justify-center align-center h-full">
       <div className="w-full flex flex-col justify-center items-center">
 

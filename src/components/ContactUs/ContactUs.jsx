@@ -24,7 +24,7 @@ export const ContactUs = () => {
   return (
     <section className="h-screen ">
     <form ref={form} onSubmit={sendEmail} className=" flex flex-col sm:max-w-[50rem] m-auto     ">
-      <div className="text-3xl text-center mb-4">Feel Free to Contact Us</div>
+      <div className="text-5xl text-center font-bold my-[2rem]">Feel Free to Contact Us</div>
       <label className=" ">Name</label>
       <input
         className="mb-4 border p-2 border-black drop-shadow-md"

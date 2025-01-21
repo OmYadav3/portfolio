@@ -4,11 +4,11 @@ import './Project.css'
 const Project = () => {
   return (
     <section>
-      <div className="main-container mt-[2rem] border- border-black ">
+      <div className="main-container mt-[2rem] border- border-black  ">
        <div className='text-5xl font-bold text-center mt-2 text-zinc-600'>Projects</div>
-       <div className="projectsshowoff border-2 border-red-60 m-4 p-2 grid grid-cols-2 ">
-            <div className="project-card m-2">
-                <div className=' w-full overflow-hidden '>
+       <div className="projectsshowoff border-2 border-red-60 m-4 p-2 grid grid-cols-3 bg-white">
+            <div className="project-card mt-2 rounded bg-white shadow-xl">
+                <div className=' w-full h-[20rem] overflow-hidden '>
                 <img
                   className="w-full h-full"
                   src="desktop-preview-recipe-page.jpg"
@@ -26,8 +26,8 @@ const Project = () => {
                   </a>
                 </div>
             </div>
-            <div className="project-card m-2">
-                <div className='w-full overflow-hidden '>
+            <div className="project-card mt-2 rounded bg-white shadow-xl">
+                <div className='w-full h-[20rem] overflow-hidden '>
                 <img
                   className="w-full h-full "
                   src="notification-page.jpg"
@@ -45,8 +45,8 @@ const Project = () => {
                   </a>
                 </div>
             </div>
-            <div className="project-card m-2">
-                <div className=' w-full overflow-hidden'>
+            <div className="project-card mt-2 rounded bg-white shadow-xl">
+                <div className=' w-full h-[20rem] overflow-hidden'>
                 <img
                   className="w-full h-full "
                   src="koinx-desktop.png"
@@ -64,17 +64,17 @@ const Project = () => {
                   </a>
                 </div>
             </div>
-            {/* <div className="project-card m-2">
-                <div className='w-full overflow-hidden '>
+            <div className="project-card mt-2 rounded bg-white shadow-xl">
+                <div className='w-full h-[20rem] overflow-hidden '>
                 <img
                   className="w-full "
-                  src="Youtube-image.webp"
+                  src="Utube.jpg"
                   alt="project"
                 />
                 </div>                
                 <div className="project-info p-4">
                   <h2 className="text-4xl font-bold">Youtube Backend</h2>
-                  <p className="text-gray-600 mb-2">This complex backend project is built with nodejs, expressjs, MongoDB, mongoose, jwt, bcrypt, and many more. It is a complete backend project with all the features a backend project should have.</p>
+                  <p className="text-gray-600 mb-2"> It is a complete backend project with all the features a backend project should have.</p>
                   <a href="" className="text-white hover:underline border-2 p-2 bg-red-500 rounded-md">
                     Live Preview
                   </a>
@@ -82,7 +82,7 @@ const Project = () => {
                     Github Repo
                   </a>
                 </div>
-            </div> */}
+            </div>
        </div>
       </div>
     </section>

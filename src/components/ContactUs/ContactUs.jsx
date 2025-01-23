@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import './Contact.css'
 
 
 export const ContactUs = () => {
@@ -23,7 +22,7 @@ export const ContactUs = () => {
       );
   };
   return (
-    <section className="h-screen ">
+    <section className=" ContactUs h-screen ">
       <div className="headling text-center text-7xl font-bold mt-[2rem] drop-shadow-lg">
         ContactUs
       </div>

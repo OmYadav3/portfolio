@@ -3,7 +3,7 @@ import './Project.css'
 
 const Project = () => {
   return (
-    <section className='Projects'>
+    <section className='' id='projects'>
       <div className="main-container mt-[2rem] ">
        <div className='text-5xl font-bold text-center mt-2 text-zinc-600'>Projects</div>
        <div className="projectsshowoff m-4 p-[1rem] grid grid-cols-3 shadow-lg">

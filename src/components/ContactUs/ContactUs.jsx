@@ -22,7 +22,7 @@ export const ContactUs = () => {
       );
   };
   return (
-    <section className=" ContactUs h-screen ">
+    <section className=" ContactUs h-screen " id="contact">
       <div className="headling text-center text-7xl font-bold mt-[2rem] drop-shadow-lg">
         ContactUs
       </div>

@@ -1,3 +1,3 @@
 # Portfolio 
-##Link
--(Deploy)[https://omyadav-portfolio.netlify.app]
+## Link
+- (Deploy)[https://omyadav-portfolio.netlify.app]

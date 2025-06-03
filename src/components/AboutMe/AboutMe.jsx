@@ -16,9 +16,9 @@ const AboutMe = () => {
       <div className='text-xs lg:text-lg font-sans text-center text-zinc-600 w-auto lg:w-[40rem] drop-shadow-lg'>I am Software Engineer with 2 months of internship experience as a Web Developer. I have developed apps using Html5, CSS3, Bootstrap5, TailwindCSS, Git&Github, JavaScript, ReactJS, NodeJS, ExpressJs and MongoDB. I am constantly learning new technologies and upgrading my skillset.
       Currently, I am focusing on NextJs Projects to become a better developer.
       </div>
-      <button className='text-xs lg:text-xl py-2 px-4 mt-4 bg-blue-600 text-white hover:bg-blue-700 rounded-[0.22rem] shadow-lg'>
+      <a href='https://drive.google.com/file/d/1cDLxai8DxBsAGXKi5sZbi1Liu3MoSRrC/view' className='text-xs lg:text-xl py-2 px-4 mt-4 bg-blue-600 text-white hover:bg-blue-700 rounded-[0.22rem] shadow-lg'>
           Download Resume
-        </button>
+        </a>
       </div>
       </div>
         </div>

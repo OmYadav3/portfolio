@@ -11,7 +11,7 @@ const Home = () => {
       <div className='text-3xl  lg:text-8xl font-sans font-bold'>Om Yadav</div>
       <div className=' text-xl font-sans font-semibold mt-2'>MERN STACK DEVELOPER</div>
       <div className='mt-4 text-xs lg:text-lg'>
-        <a className='py-2 lg:py-3 px-3 lg:px-4 mt-4 bg-blue-600 text-white hover:bg-blue-700 rounded-[0.22rem] '>
+        <a href='https://drive.google.com/file/d/1cDLxai8DxBsAGXKi5sZbi1Liu3MoSRrC/view' className='py-2 lg:py-3 px-3 lg:px-4 mt-4 bg-blue-600 text-white hover:bg-blue-700 rounded-[0.22rem] '>
           Resume
         </a>
         <a className='mx-2 py-2 lg:py-3 px-3 lg:px-4  mt-4 bg-black text-white hover:text-black hover:bg-white rounded-[0.22rem] border border-black' href='https://github.com/OmYadav3' >
